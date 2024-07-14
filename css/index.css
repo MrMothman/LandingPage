@@ -1,0 +1,181 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.mainBody{
+
+}
+
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #1F2937;
+}
+
+.textBox{
+    display: block;
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.imageBox{
+    flex: 1;
+    margin-right: 300px;
+}
+
+.callAction{
+    display: inline-block;
+    border: 0;
+    border-radius: 10%;
+    margin-top: 20px;    
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    cursor: pointer;
+
+
+}
+
+.description{
+    font-size: 18px;
+    color: lightgrey;
+}
+
+.aboutMe{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.headshot{
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+    border: 4px solid #f9faf8;
+
+}
+
+
+.info{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.infoTitle{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 48px;
+}
+
+.skill-container{
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 40px;
+
+}
+
+.skill-item{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 auto;
+    height: 350px;
+    width: 200px;
+    flex-direction: space-around;
+    border-radius: 10%;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+     
+
+}
+
+.boxInfo{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+
+}
+
+.qoute{
+    width: 100%;
+    height: 500px;
+    background-color: #E5E7EB;
+}
+
+.email{
+    width: 100%;
+    height: 250px;
+}
+
+.header{
+    display: flex; 
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #1F2937;
+    flex: 1;
+
+}
+
+.logo{
+    margin-left: 100px;
+    flex: 1;
+}
+
+.logo.text{
+    display: inline;
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.navBar.list{
+   display: flex; 
+   gap: 5rem;
+   justify-content: space-evenly;
+   margin-right: 200px;
+   list-style: none;
+
+}
+
+li{
+    font-size: 24px;
+    color: lightgrey;
+
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: #1F2937;
+}
