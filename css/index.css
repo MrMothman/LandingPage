@@ -125,12 +125,44 @@
 }
 
 .qoute{
+    display: flex;
     width: 100%;
     height: 500px;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute-box{
+    flex: 0 1 auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.qoute-text{
+    color: #1f2937;
+    display: block;
+    line-height: 75px;
+    flex: 0 1 auto;
+    font-size: 36px;
+
+}
+
+.qoute-author{
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: right;
 }
 
 .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 250px;
 }
@@ -174,8 +206,60 @@ li{
 
 }
 
+.email-container{
+    border-radius: 2%;
+    display: flex;
+    width: 70vw;
+    height: 100px;
+    background-color: #3882f6;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-text{
+    flex: 2 1 auto;
+    margin-left: 200px;
+}
+.email-head{
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 25px
+}
+
+.email-body{
+    color: #1f2937;
+}
+
+.email-button-box{
+    flex: auto;
+}
+
+.email-button{
+    margin-right: 100px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+}
+
+
+
 .footer{
     width: 100%;
     height: 70px;
     background-color: #1F2937;
 }
+
+
+
+
+
+
